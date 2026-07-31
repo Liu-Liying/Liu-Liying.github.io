@@ -1,0 +1,243 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* ==============================
+   基础设置
+============================== */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #f6f8fa;
+  color: #24292f;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Arial,
+    sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+/* 去掉 Dinky 原来的宽度限制 */
+.wrapper {
+  width: auto;
+  margin: 0;
+}
+
+/* ==============================
+   整体双栏布局
+============================== */
+
+.resume-container {
+  display: grid;
+  grid-template-columns: 300px minmax(0, 850px);
+  max-width: 1200px;
+  min-height: 100vh;
+  margin: 0 auto;
+  background: #ffffff;
+  box-shadow: 0 0 24px rgba(0, 0, 0, 0.06);
+}
+
+/* ==============================
+   左侧栏
+============================== */
+
+.sidebar {
+  padding: 50px 32px;
+  background: #1f2937;
+  color: #ffffff;
+}
+
+.profile {
+  margin-bottom: 30px;
+}
+
+.avatar {
+  display: block;
+  width: 135px;
+  height: 135px;
+  margin: 0 auto 24px;
+  border: 4px solid rgba(255, 255, 255, 0.85);
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.sidebar h1 {
+  margin: 0 0 8px;
+  color: #ffffff;
+  font-size: 30px;
+  line-height: 1.25;
+}
+
+.position {
+  margin: 0 0 16px;
+  color: #93c5fd;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.description {
+  color: #d1d5db;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+/* ==============================
+   联系方式
+============================== */
+
+.contact {
+  padding: 22px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.contact a {
+  display: block;
+  margin: 8px 0;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  color: #93c5fd;
+}
+
+/* ==============================
+   左侧导航
+============================== */
+
+.sidebar-nav {
+  margin-top: 28px;
+}
+
+.sidebar-nav a {
+  display: block;
+  padding: 8px 0;
+  color: #d1d5db;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.sidebar-nav a:hover {
+  color: #ffffff;
+  padding-left: 5px;
+}
+
+/* ==============================
+   右侧正文
+============================== */
+
+.main-content {
+  min-width: 0;
+  padding: 55px 60px;
+}
+
+.main-content h1 {
+  margin-top: 0;
+  color: #111827;
+  font-size: 34px;
+}
+
+.main-content h2 {
+  margin-top: 50px;
+  padding-bottom: 9px;
+  border-bottom: 2px solid #e5e7eb;
+  color: #1f2937;
+  font-size: 24px;
+}
+
+.main-content h3 {
+  margin-top: 28px;
+  margin-bottom: 5px;
+  color: #2563eb;
+  font-size: 19px;
+}
+
+.main-content p {
+  margin-top: 8px;
+}
+
+.main-content ul {
+  padding-left: 24px;
+}
+
+.main-content li {
+  margin-bottom: 6px;
+}
+
+.main-content a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+.main-content a:hover {
+  text-decoration: underline;
+}
+
+.main-content strong {
+  color: #111827;
+}
+
+/* ==============================
+   页脚
+============================== */
+
+footer {
+  margin-top: 60px;
+  padding-top: 20px;
+  border-top: 1px solid #e5e7eb;
+  color: #6b7280;
+  font-size: 13px;
+}
+
+/* ==============================
+   手机端布局
+============================== */
+
+@media screen and (max-width: 800px) {
+
+  .resume-container {
+    display: block;
+    width: 100%;
+  }
+
+  .sidebar {
+    padding: 35px 25px;
+    text-align: center;
+  }
+
+  .contact a {
+    display: inline-block;
+    margin: 6px 10px;
+  }
+
+  .sidebar-nav {
+    display: none;
+  }
+
+  .main-content {
+    padding: 35px 24px;
+  }
+
+  .main-content h1 {
+    font-size: 28px;
+  }
+
+  .main-content h2 {
+    margin-top: 38px;
+    font-size: 22px;
+  }
+}

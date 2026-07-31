@@ -1,123 +1,91 @@
 ---
 layout: default
+title: Home
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+<section id="about">
 
-[Link to another page](./another-page.html).
+## About Me
 
-There should be whitespace between paragraphs.
+I am a Ph.D. applicant in Computer Science. My research interests focus on wireless networks, graph machine learning, and reinforcement learning.
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+My current research investigates energy-efficient multihop routing for wireless sensor networks.
 
-# Header 1
+</section>
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+<section id="research-interests">
 
-## Header 2
+## Research Interests
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+- Wireless Sensor Networks
+- Energy-Efficient Multihop Routing
+- Graph Neural Networks
+- Reinforcement Learning
+- Wireless Spectrum Intelligence
 
-### Header 3
+</section>
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
+<section id="education">
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
+## Education
 
-#### Header 4
+### Beijing University of Technology
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
+**M.S. in Computer Science and Technology**  
+Average Score: 88/100  
+Beijing, China
 
-##### Header 5
+### Hebei Agricultural University
 
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
+**B.S. in Computer Science and Technology**  
+GPA: 4.0/5.0  
+Hebei, China
 
-###### Header 6
+</section>
 
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
+<section id="publications">
 
-### There's a horizontal rule below this.
+## Publications
 
-* * *
+1. **Your Name**, Coauthor Name.  
+   “Your Paper Title.”  
+   *Journal Name*, Year.
 
-### Here is an unordered list:
+</section>
 
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
+<section id="research-experience">
 
-### And an ordered list:
+## Research Experience
 
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
+### Energy-Efficient Routing for Wireless Sensor Networks
 
-### And a nested list:
+- Developed graph-based models for multihop routing.
+- Designed energy-aware routing strategies.
+- Investigated GAT and reinforcement learning methods.
+- Evaluated network lifetime using FND, HND, and LND.
+- Measured energy balance using RSD and the Gini coefficient.
 
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
+</section>
 
-### Small image
+<section id="projects">
 
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
+## Projects
 
-### Large image
+### Graph-Based Wireless Network Modeling
 
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
+- Constructed wireless network topology using NetworkX.
+- Extracted node centrality and connectivity features.
+- Analyzed graph Laplacian eigenvalues and eigenvectors.
 
+</section>
 
-### Definition lists can be used with HTML syntax.
+<section id="skills">
 
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
+## Technical Skills
 
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
+- **Programming:** Python, Java, C++
+- **Deep Learning:** PyTorch, GCN, GAT
+- **Reinforcement Learning:** Q-learning, Actor–Critic, PPO
+- **Tools:** Git, Linux, NetworkX, MATLAB
 
-```
-The final element.
-```
+</section>
