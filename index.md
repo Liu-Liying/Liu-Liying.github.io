@@ -4,7 +4,7 @@ layout: default
 title: Home
 -----------
 
-<section id="about">
+
 
 ## About Me
 
@@ -14,11 +14,11 @@ My research interests focus on **[Research Area 1]**, **[Research Area 2]**, and
 
 I am currently seeking **[Ph.D. opportunities / research collaborations / internship opportunities]** in related fields.
 
-</section>
+
 
 ---
 
-<section id="research-interests">
+
 
 ## Research Interests
 
@@ -28,11 +28,10 @@ I am currently seeking **[Ph.D. opportunities / research collaborations / intern
 * [Research Interest 4]
 * [Research Interest 5]
 
-</section>
 
 ---
 
-<section id="education">
+
 
 ## Education
 
@@ -58,11 +57,11 @@ I am currently seeking **[Ph.D. opportunities / research collaborations / intern
 * Major Ranking: [Ranking, optional]
 * Thesis: *[Thesis Title, optional]*
 
-</section>
+
 
 ---
 
-<section id="publications">
+
 
 ## Publications
 
@@ -91,11 +90,11 @@ I am currently seeking **[Ph.D. opportunities / research collaborations / intern
    “[Manuscript Title].”
    Under review / In preparation, [Year].
 
-</section>
+
 
 ---
 
-<section id="research-experience">
+
 
 ## Research Experience
 
@@ -124,11 +123,10 @@ I am currently seeking **[Ph.D. opportunities / research collaborations / intern
 * Analyzed [experimental results or theoretical findings].
 * Presented the results in [paper, report, seminar, or conference].
 
-</section>
 
 ---
 
-<section id="projects">
+
 
 ## Selected Projects
 
@@ -152,11 +150,11 @@ I am currently seeking **[Ph.D. opportunities / research collaborations / intern
 * Evaluated the project using [metrics].
 * Demo: [[Website]]([Demo URL])
 
-</section>
+
 
 ---
 
-<section id="skills">
+
 
 ## Technical Skills
 
@@ -170,11 +168,11 @@ I am currently seeking **[Ph.D. opportunities / research collaborations / intern
 * **Tools:** [Git], [Linux], [Docker], [LaTeX]
 * **Languages:** [Language and proficiency]
 
-</section>
+
 
 ---
 
-<section id="awards">
+
 
 ## Awards and Honors
 
@@ -183,11 +181,11 @@ I am currently seeking **[Ph.D. opportunities / research collaborations / intern
 * **[Competition or Academic Honor]**, [Year]
 * **[University Scholarship]**, [Year]
 
-</section>
+
 
 ---
 
-<section id="teaching">
+
 
 ## Teaching Experience
 
@@ -201,11 +199,11 @@ I am currently seeking **[Ph.D. opportunities / research collaborations / intern
 * Graded assignments, projects, and examinations.
 * Provided academic support to students.
 
-</section>
+
 
 ---
 
-<section id="service">
+
 
 ## Academic Service
 
@@ -214,22 +212,20 @@ I am currently seeking **[Ph.D. opportunities / research collaborations / intern
 * Volunteer for [Academic Event or Conference]
 * Organizer of [Seminar, Workshop, or Student Activity]
 
-</section>
+
 
 ---
 
-<section id="certificates">
 
 ## Certifications
 
 * **[Certificate Name]**, [Issuing Organization], [Year]
 * **[Certificate Name]**, [Issuing Organization], [Year]
 
-</section>
+
 
 ---
 
-<section id="contact">
 
 ## Contact
 
@@ -239,4 +235,4 @@ I am currently seeking **[Ph.D. opportunities / research collaborations / intern
 * **LinkedIn:** [LinkedIn Profile]([LinkedIn URL])
 * **Curriculum Vitae:** [[Download CV]]({{ '/assets/files/CV.pdf' | relative_url }})
 
-</section>
+
