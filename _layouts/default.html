@@ -7,14 +7,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>
-    {% if page.title %}
-    {{ page.title }} | {{ site.title }}
-    {% else %}
+    {% if site.title %}
     {{ site.title }}
     {% endif %}
   </title>
 
   <meta name="description" content="{{ site.description }}">
+
+  <link rel="icon" href="{{ '/assets/images/favicon.jpg' | relative_url }}" type="image/x-icon">
 
   <!-- 自定义 CSS -->
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
@@ -120,27 +120,6 @@
         </a>
       </p>
       {% endif %}
-
-      {% if site.github_username %}
-      <p class="profile-link">
-        <i class="fa-brands fa-github"></i>
-
-        <a href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener noreferrer">
-          GitHub
-        </a>
-      </p>
-      {% endif %}
-
-      {% if site.google_scholar %}
-      <p class="profile-link">
-        <i class="fa-solid fa-graduation-cap"></i>
-        <a href="{{ site.google_scholar }}" target="_blank" rel="noopener noreferrer">
-          Google Scholar
-        </a>
-      </p>
-      {% endif %}
-
-
     </aside>
 
     <!-- =========================

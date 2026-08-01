@@ -1,27 +1,17 @@
 ---
 layout: default
-title: Homepage
+title: Liying Liu
 ---
 
 ## About {#about}
 
-Hello 👋! I am **[Your Name]**, a graduate student at [University Name], advised by Prof. [Advisor Name].
+Hello! I am **[Your Name]**, a graduate student at [University Name], advised by Prof. [Advisor Name].
 
 I received my [Degree] in [Major] from [University Name] in [Year].
 
 My research focuses on **[Research Area 1]**, **[Research Area 2]**, and **[Research Area 3]**.
 
-You can find my [CV here]({{ '/assets/files/CV.pdf' | relative_url }}).
-
-## 🔥 News {#news}
-
-- [2026.07] 🎉 [Paper Name] was accepted by *[Conference Name]*.
-- [2026.05] 🚀 The source code for [Project Name] was released.
-- [2026.02] 🏆 Received [Award Name].
-
-## 📝 Selected Publications {#publications}
-
-For the full publication list, please see my [CV]({{ '/assets/files/CV.pdf' | relative_url }}).
+## Publications {#publications}
 
 ![Publication preview]({{ '/assets/images/paper-example.jpg' | relative_url }})
 
@@ -33,15 +23,13 @@ For the full publication list, please see my [CV]({{ '/assets/files/CV.pdf' | re
 
 [[Paper]](#) · [[Code]](#) · [[Project Page]](#)
 
-Briefly describe the problem, method, and contribution of this publication.
-
-## 🏆 Honors and Awards {#honors}
+## Honors and Awards {#honors}
 
 - **[Award Name]**, [Organization], [Year]
 - **[Scholarship Name]**, [University], [Year]
 - **[Competition Award]**, [Year]
 
-## 🎓 Education {#education}
+## Education {#education}
 
 ### [University Name]
 
@@ -52,7 +40,7 @@ Briefly describe the problem, method, and contribution of this publication.
 - GPA or Average Score: [Score]
 - Thesis: *[Thesis Title]*
 
-## 💼 Research Experience {#experience}
+## Research Experience {#experience}
 
 ### [Research Project Name]
 
