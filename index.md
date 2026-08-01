@@ -3,7 +3,7 @@ layout: default
 title: Liying Liu
 ---
 
-## About {#about}
+## About Me {#about}
 
 Hello! I am **[Your Name]**, a graduate student at [University Name], advised by Prof. [Advisor Name].
 

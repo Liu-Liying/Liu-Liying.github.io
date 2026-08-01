@@ -85,7 +85,10 @@
       {% endif %}
 
       <h1 class="profile-name">
-        {{ site.title }}
+        <span class="profile-name-en">{{ site.title }}</span>
+        {% if site.nameZh %}
+        <span class="profile-name-zh">{{ site.nameZh }}</span>
+        {% endif %}
       </h1>
 
       {% if site.position %}
