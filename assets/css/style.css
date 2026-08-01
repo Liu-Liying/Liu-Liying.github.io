@@ -13,7 +13,7 @@ body {
   margin: 0;
   padding: 0;
   overflow-y: auto;
-  background: #c46d6d;
+  background: #f1f1f1;
   color: #747c8a;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   font-size: 17px;
@@ -35,7 +35,7 @@ a {
   top: 0;
   z-index: 1000;
   width: 100%;
-  background: rgba(211, 91, 91, 0.97);
+  background: rgba(255, 255, 255, 0.97);
   border-bottom: 1px solid #ececec;
   backdrop-filter: blur(8px);
 }
@@ -89,9 +89,9 @@ a {
   column-gap: 44px;
   flex: 1;
   width: 100%;
-  max-width: 1660px;
+  max-width: 1320px;
   margin: 0 auto;
-  padding: 24px 44px 24px;
+  padding: 28px 48px 36px;
   align-items: start;
 }
 
@@ -168,20 +168,22 @@ a {
 
 .main-content {
   min-width: 0;
-  padding: 0 8px 60px;
+  padding: 0 12px 60px;
+  background: #f8f8f8;
+  border-radius: 12px;
 }
 
 .main-content p {
   margin: 0 0 10px;
   color: #293039;
-  font-size: 17px;
+  font-size: 16px;
   line-height: 1.65;
 }
 
 .main-content h1 {
   margin: 0 0 22px;
   color: #2a333f;
-  font-size: 30px;
+  font-size: 28px;
   line-height: 1.35;
 }
 
@@ -190,7 +192,7 @@ a {
   padding-bottom: 7px;
   border-bottom: 1px solid #a67d7d;
   color: #363a40;
-  font-size: 27px;
+  font-size: 24px;
   font-weight: 650;
   line-height: 1.4;
 }
@@ -198,7 +200,7 @@ a {
 .main-content h3 {
   margin: 22px 0 7px;
   color: #3b4047;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 650;
 }
 
@@ -211,7 +213,7 @@ a {
 .main-content li {
   margin: 7px 0;
   color: #454a51;
-  font-size: 17px;
+  font-size: 16px;
   line-height: 1.6;
 }
 
