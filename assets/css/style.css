@@ -1,0 +1,283 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 90px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: #ffffff;
+  color: #40444b;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+a {
+  color: #154c8a;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+a:hover {
+  color: #0b315d;
+}
+
+.top-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.97);
+  border-bottom: 1px solid #ececec;
+  backdrop-filter: blur(8px);
+}
+
+.top-nav {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  min-height: 64px;
+  padding: 0 36px;
+}
+
+.top-nav a {
+  color: #555b63;
+  text-decoration: none;
+}
+
+.top-nav a:hover {
+  color: #154c8a;
+}
+
+.brand {
+  flex-shrink: 0;
+  margin-right: 68px;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 38px;
+}
+
+.nav-links a {
+  padding: 20px 0;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.page-container {
+  display: grid;
+  grid-template-columns: 280px minmax(0, 1fr);
+  column-gap: 44px;
+  flex: 1;
+  min-height: 0;
+  width: 100%;
+  max-width: 1660px;
+  margin: 0 auto;
+  padding: 24px 44px 24px;
+  overflow: hidden;
+}
+
+.profile-sidebar {
+  position: sticky;
+  top: 0;
+  align-self: start;
+  max-height: 100%;
+  overflow-y: auto;
+  padding-right: 10px;
+}
+
+.profile-avatar {
+  display: block;
+  width: 210px;
+  height: 230px;
+  margin: 0 auto 22px;
+  border: 1px solid #e4e4e4;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.08);
+}
+
+.profile-name {
+  margin: 0 0 8px;
+  color: #40444b;
+  font-size: 27px;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.profile-university,
+.profile-position {
+  margin: 0 0 20px;
+  color: #4b5058;
+  font-size: 17px;
+  line-height: 1.55;
+}
+
+.profile-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 11px 0;
+  color: #41464d;
+  font-size: 16px;
+}
+
+.profile-link i {
+  flex: 0 0 20px;
+  width: 20px;
+  color: #17191c;
+  text-align: center;
+}
+
+.profile-link .fa-linkedin {
+  color: #0a66c2;
+}
+
+.profile-link a {
+  color: #41464d;
+  text-decoration: none;
+}
+
+.profile-link a:hover {
+  color: #154c8a;
+  text-decoration: underline;
+}
+
+.main-content {
+  min-width: 0;
+  height: 100%;
+  overflow-y: auto;
+  padding: 0 8px 60px;
+}
+
+.main-content p {
+  margin: 0 0 10px;
+  color: #454a51;
+  font-size: 17px;
+  line-height: 1.65;
+}
+
+.main-content h1 {
+  margin: 0 0 22px;
+  color: #34383e;
+  font-size: 30px;
+  line-height: 1.35;
+}
+
+.main-content h2 {
+  margin: 28px 0 14px;
+  padding-bottom: 7px;
+  border-bottom: 1px solid #e7e7e7;
+  color: #363a40;
+  font-size: 27px;
+  font-weight: 650;
+  line-height: 1.4;
+}
+
+.main-content h3 {
+  margin: 22px 0 7px;
+  color: #3b4047;
+  font-size: 20px;
+  font-weight: 650;
+}
+
+.main-content ul,
+.main-content ol {
+  margin: 8px 0 18px;
+  padding-left: 34px;
+}
+
+.main-content li {
+  margin: 7px 0;
+  color: #454a51;
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+.main-content strong {
+  color: #3e4248;
+  font-weight: 700;
+}
+
+.main-content img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 1100px) {
+  .page-container {
+    grid-template-columns: 240px minmax(0, 1fr);
+    column-gap: 34px;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  .profile-avatar {
+    width: 190px;
+    height: 210px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .top-nav {
+    display: block;
+    padding: 12px 20px;
+  }
+
+  .brand {
+    display: block;
+    margin: 0 0 5px;
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 8px 20px;
+    overflow-x: auto;
+  }
+
+  .page-container {
+    display: block;
+    height: auto;
+    overflow: visible;
+    padding: 34px 24px 50px;
+  }
+
+  .profile-sidebar {
+    position: static;
+    max-height: none;
+    overflow: visible;
+    margin-bottom: 40px;
+    padding-right: 0;
+    text-align: center;
+  }
+
+  .profile-avatar {
+    width: 170px;
+    height: 185px;
+  }
+
+  .profile-link {
+    justify-content: center;
+  }
+
+  .main-content {
+    height: auto;
+    overflow: visible;
+    padding: 0;
+  }
+}

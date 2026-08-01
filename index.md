@@ -52,13 +52,6 @@ Briefly describe the problem, method, and contribution of this publication.
 - GPA or Average Score: [Score]
 - Thesis: *[Thesis Title]*
 
-### [University Name]
-
-**[Degree] in [Major]**  
-[Start Year] – [End Year]
-
-- GPA or Average Score: [Score]
-
 ## 💼 Research Experience {#experience}
 
 ### [Research Project Name]
