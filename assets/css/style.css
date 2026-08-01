@@ -2,11 +2,6 @@
   box-sizing: border-box;
 }
 
-html {
-  scroll-behavior: smooth;
-  scroll-padding-top: 90px;
-}
-
 body {
   display: flex;
   flex-direction: column;
@@ -25,10 +20,6 @@ a {
   color: #154c8a;
   text-decoration: underline;
   text-underline-offset: 2px;
-}
-
-a:hover {
-  color: #0b315d;
 }
 
 .top-header {
@@ -142,10 +133,6 @@ a:hover {
   width: 20px;
   color: #17191c;
   text-align: center;
-}
-
-.profile-link .fa-linkedin {
-  color: #0a66c2;
 }
 
 .profile-link a {

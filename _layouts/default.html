@@ -28,49 +28,6 @@
 <body>
 
   <!-- =========================
-       顶部导航栏
-  ========================== -->
-  <header class="top-header">
-
-    <nav class="top-nav">
-
-      <a class="brand" href="#homepage">
-        Homepage
-      </a>
-
-      <div class="nav-links">
-
-        <a href="#about">
-          About Me
-        </a>
-
-        <a href="#news">
-          News
-        </a>
-
-        <a href="#publications">
-          Publications
-        </a>
-
-        <a href="#honors">
-          Honors and Awards
-        </a>
-
-        <a href="#education">
-          Education
-        </a>
-
-        <a href="#experience">
-          Experience
-        </a>
-
-      </div>
-
-    </nav>
-
-  </header>
-
-  <!-- =========================
        整体内容
   ========================== -->
   <div class="page-container">
@@ -87,12 +44,6 @@
       <h1 class="profile-name">
         {{ site.title }}
       </h1>
-
-      {% if site.university %}
-      <p class="profile-university">
-        {{ site.university }}
-      </p>
-      {% endif %}
 
       {% if site.position %}
       <p class="profile-position">
@@ -140,19 +91,8 @@
       {% if site.google_scholar %}
       <p class="profile-link">
         <i class="fa-solid fa-graduation-cap"></i>
-
         <a href="{{ site.google_scholar }}" target="_blank" rel="noopener noreferrer">
           Google Scholar
-        </a>
-      </p>
-      {% endif %}
-
-      {% if site.cv %}
-      <p class="profile-link">
-        <i class="fa-solid fa-file-pdf"></i>
-
-        <a href="{{ site.cv | relative_url }}" target="_blank" rel="noopener noreferrer">
-          Curriculum Vitae
         </a>
       </p>
       {% endif %}
