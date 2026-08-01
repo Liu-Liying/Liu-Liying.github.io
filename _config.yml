@@ -1,23 +1,19 @@
-remote_theme: pages-themes/dinky@v0.2.0
-
-plugins:
-  - jekyll-remote-theme
-  - jekyll-seo-tag
-
 title: Your Full Name
+description: Ph.D. Applicant in Computer Science
 
-position: Computer Science Ph.D. Applicant
+position: Ph.D. Applicant in Computer Science
+university: Your University
+location: City, Country
 
 email: your-email@example.com
-
 github_username: your-github-name
-
-google_scholar: https://scholar.google.com/你的链接
-
-linkedin: https://www.linkedin.com/in/你的链接
-
-cv: /assets/files/CV.pdf
+linkedin: https://www.linkedin.com/in/your-link
+google_scholar: https://scholar.google.com/your-link
 
 avatar: /assets/images/profile.jpg
+cv: /assets/files/CV.pdf
 
-show_downloads: false
+lang: en-US
+
+plugins:
+  - jekyll-seo-tag

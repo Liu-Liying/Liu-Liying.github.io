@@ -1,238 +1,121 @@
 ---
-
 layout: default
-title: Home
------------
-
-
-
-## About Me
-
-I am a graduate student in **[Your Major or Research Field]** at **[University Name]**.
-
-My research interests focus on **[Research Area 1]**, **[Research Area 2]**, and **[Research Area 3]**. I am particularly interested in applying **[Methods or Technologies]** to solve problems in **[Application Domain]**.
-
-I am currently seeking **[Ph.D. opportunities / research collaborations / internship opportunities]** in related fields.
-
-
-
+title: Homepage
 ---
 
+<section id="about" markdown="1">
 
+Hello 👋! I am **[Your Name]**, a graduate student at [University Name], advised by Prof. [Advisor Name].
 
-## Research Interests
+I received my [Degree] in [Major] from [University Name] in [Year].
 
-* [Research Interest 1]
-* [Research Interest 2]
-* [Research Interest 3]
-* [Research Interest 4]
-* [Research Interest 5]
+My research focuses on **[Research Area 1]**, **[Research Area 2]**, and **[Research Area 3]**.
 
+You can find my [CV here]({{ '/assets/files/CV.pdf' | relative_url }}).
 
----
+</section>
 
+<section id="news" markdown="1">
 
+## 🔥 News
 
-## Education
+<ul class="news-list">
+  <li>
+    <span class="news-date">[2026.07]</span>
+    🎉 [Paper Name] was accepted by <em>[Conference Name]</em>.
+  </li>
+
+  <li>
+    <span class="news-date">[2026.05]</span>
+    🚀 The source code for [Project Name] was released.
+  </li>
+
+  <li>
+    <span class="news-date">[2026.02]</span>
+    🏆 Received [Award Name].
+  </li>
+</ul>
+
+</section>
+
+<section id="publications" markdown="1">
+
+## 📝 Selected Publications
+
+For the full publication list, please see my [CV]({{ '/assets/files/CV.pdf' | relative_url }}).
+
+<div class="publication-card">
+
+  <div class="publication-image">
+    <span class="publication-label">Preprint</span>
+    <img
+      src="{{ '/assets/images/paper-example.jpg' | relative_url }}"
+      alt="Publication preview"
+    >
+  </div>
+
+  <div class="publication-info" markdown="1">
+
+### [Paper Title]
+
+**[Your Name]**, [Coauthor Name], [Coauthor Name]
+
+*[Conference or Journal Name]*, [Year]
+
+[[Paper]](#) · [[Code]](#) · [[Project Page]](#)
+
+Briefly describe the problem, method, and contribution of this publication.
+
+  </div>
+
+</div>
+
+</section>
+
+<section id="honors" markdown="1">
+
+## 🏆 Honors and Awards
+
+- **[Award Name]**, [Organization], [Year]
+- **[Scholarship Name]**, [University], [Year]
+- **[Competition Award]**, [Year]
+
+</section>
+
+<section id="education" markdown="1">
+
+## 🎓 Education
 
 ### [University Name]
 
-**[Degree] in [Major]**
-[Department or School]
-[City, Country]
+**[Degree] in [Major]**  
 [Start Year] – [End Year or Present]
 
-* GPA / Average Score: [Score]
-* Advisor: [Advisor Name]
-* Thesis: *[Thesis Title]*
+- Advisor: [Advisor Name]
+- GPA or Average Score: [Score]
+- Thesis: *[Thesis Title]*
 
 ### [University Name]
 
-**[Degree] in [Major]**
-[Department or School]
-[City, Country]
+**[Degree] in [Major]**  
 [Start Year] – [End Year]
 
-* GPA / Average Score: [Score]
-* Major Ranking: [Ranking, optional]
-* Thesis: *[Thesis Title, optional]*
+- GPA or Average Score: [Score]
 
+</section>
 
+<section id="experience" markdown="1">
 
----
+## 💼 Research Experience
 
+### [Research Project Name]
 
-
-## Publications
-
-### Journal Articles
-
-1. **[Your Name]**, [Coauthor Name], and [Coauthor Name].
-   “[Paper Title].”
-   *[Journal Name]*, vol. [Volume], no. [Issue], pp. [Pages], [Year].
-   [[Paper]]([Paper URL]) [[Code]]([Code URL])
-
-2. [Author Names].
-   “[Paper Title].”
-   *[Journal Name]*, [Year].
-   [[Paper]]([Paper URL])
-
-### Conference Papers
-
-1. **[Your Name]**, [Coauthor Name].
-   “[Paper Title].”
-   In *Proceedings of [Conference Name]*, [Year].
-   [[Paper]]([Paper URL]) [[Slides]]([Slides URL])
-
-### Manuscripts
-
-1. **[Your Name]**, [Coauthor Name].
-   “[Manuscript Title].”
-   Under review / In preparation, [Year].
-
-
-
----
-
-
-
-## Research Experience
-
-### [Research Project Title]
-
-**[Role, such as Graduate Research Assistant]**
-[Laboratory or Institution]
-[Start Date] – [End Date or Present]
-
-* Investigated [research problem or objective].
-* Developed [algorithm, framework, model, or system].
-* Designed [methodology, experiment, dataset, or evaluation framework].
-* Conducted experiments using [tools, platforms, or datasets].
-* Evaluated the proposed method using [evaluation metrics].
-* Achieved [main result, improvement, or research outcome].
-
-### [Research Project Title]
-
-**[Role]**
-[Laboratory or Institution]
+**[Role]**, [Institution]  
 [Start Date] – [End Date]
 
-* Studied [research topic].
-* Implemented [method or system].
-* Compared the proposed approach with [baseline methods].
-* Analyzed [experimental results or theoretical findings].
-* Presented the results in [paper, report, seminar, or conference].
+- Investigated [research problem].
+- Developed [algorithm, framework, or system].
+- Conducted experiments using [tools or datasets].
+- Evaluated the method using [metrics].
 
-
----
-
-
-
-## Selected Projects
-
-### [Project Name]
-
-**Technologies:** [Python, PyTorch, NetworkX, etc.]
-
-* Developed [brief description of the project].
-* Implemented [main algorithms or modules].
-* Designed [system architecture, experiment, or interface].
-* Improved [performance metric or practical outcome].
-* Source code: [[GitHub]]([Repository URL])
-
-### [Project Name]
-
-**Technologies:** [Technology 1, Technology 2, Technology 3]
-
-* Built [project description].
-* Processed or analyzed [data type or dataset].
-* Applied [algorithm or model].
-* Evaluated the project using [metrics].
-* Demo: [[Website]]([Demo URL])
-
-
-
----
-
-
-
-## Technical Skills
-
-* **Programming Languages:** [Python], [Java], [C++], [MATLAB]
-* **Machine Learning:** [Machine Learning Methods]
-* **Deep Learning:** [PyTorch], [TensorFlow], [CNN], [RNN], [GNN]
-* **Reinforcement Learning:** [Q-learning], [Actor–Critic], [PPO]
-* **Data Analysis:** [NumPy], [Pandas], [Matplotlib]
-* **Graph Analysis:** [NetworkX], [Graph Algorithms]
-* **Databases:** [MySQL], [Redis], [Oracle]
-* **Tools:** [Git], [Linux], [Docker], [LaTeX]
-* **Languages:** [Language and proficiency]
-
-
-
----
-
-
-
-## Awards and Honors
-
-* **[Award or Scholarship Name]**, [Organization], [Year]
-* **[Award or Scholarship Name]**, [Organization], [Year]
-* **[Competition or Academic Honor]**, [Year]
-* **[University Scholarship]**, [Year]
-
-
-
----
-
-
-
-## Teaching Experience
-
-### [Course Name]
-
-**[Teaching Assistant / Instructor]**
-[University Name], [Semester and Year]
-
-* Assisted with lectures, tutorials, or laboratory sessions.
-* Prepared course materials and programming assignments.
-* Graded assignments, projects, and examinations.
-* Provided academic support to students.
-
-
-
----
-
-
-
-## Academic Service
-
-* Reviewer for [Journal or Conference Name], [Year]
-* Student member of [Professional Organization]
-* Volunteer for [Academic Event or Conference]
-* Organizer of [Seminar, Workshop, or Student Activity]
-
-
-
----
-
-
-## Certifications
-
-* **[Certificate Name]**, [Issuing Organization], [Year]
-* **[Certificate Name]**, [Issuing Organization], [Year]
-
-
-
----
-
-
-## Contact
-
-* **Email:** [your-email@example.com](mailto:your-email@example.com)
-* **GitHub:** [github.com/your-username](https://github.com/your-username)
-* **Google Scholar:** [Scholar Profile]([Google Scholar URL])
-* **LinkedIn:** [LinkedIn Profile]([LinkedIn URL])
-* **Curriculum Vitae:** [[Download CV]]({{ '/assets/files/CV.pdf' | relative_url }})
-
-
+</section>

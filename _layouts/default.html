@@ -16,129 +16,153 @@
 
   <meta name="description" content="{{ site.description }}">
 
+  <!-- 自定义 CSS -->
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+
+  <!-- Font Awesome 图标 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
   {% seo %}
 </head>
 
 <body>
 
-  <div class="resume-container">
+  <!-- =========================
+       顶部导航栏
+  ========================== -->
+  <header class="top-header">
 
-    <!-- =========================
-         左侧个人信息栏
-    ========================== -->
-    <aside class="sidebar">
+    <nav class="top-nav">
 
-      <!-- 个人信息 -->
-      <div class="profile">
+      <a class="brand" href="#homepage">
+        Homepage
+      </a>
 
-        {% if site.avatar %}
-        <img class="avatar" src="{{ site.avatar | relative_url }}" alt="{{ site.title }}">
-        {% endif %}
+      <div class="nav-links">
 
-        <h1>{{ site.title }}</h1>
-
-        {% if site.position %}
-        <p class="position">
-          {{ site.position }}
-        </p>
-        {% endif %}
-
-        {% if site.description %}
-        <p class="description">
-          {{ site.description }}
-        </p>
-        {% endif %}
-
-      </div>
-
-      <!-- 联系方式 -->
-      <div class="contact">
-
-        {% if site.email %}
-        <a href="mailto:{{ site.email }}">
-          Email
-        </a>
-        {% endif %}
-
-        {% if site.github_username %}
-        <a href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener noreferrer">
-          GitHub
-        </a>
-        {% endif %}
-
-        {% if site.google_scholar %}
-        <a href="{{ site.google_scholar }}" target="_blank" rel="noopener noreferrer">
-          Google Scholar
-        </a>
-        {% endif %}
-
-        {% if site.linkedin %}
-        <a href="{{ site.linkedin }}" target="_blank" rel="noopener noreferrer">
-          LinkedIn
-        </a>
-        {% endif %}
-
-        {% if site.cv %}
-        <a href="{{ site.cv | relative_url }}" target="_blank" rel="noopener noreferrer">
-          Download CV
-        </a>
-        {% endif %}
-
-      </div>
-
-      <!-- 左侧导航 -->
-      <nav class="sidebar-nav" aria-label="Resume navigation">
-
-        <a href="#about-me">
+        <a href="#about">
           About Me
         </a>
 
-        <a href="#research-interests">
-          Research Interests
-        </a>
-
-        <a href="#education">
-          Education
+        <a href="#news">
+          News
         </a>
 
         <a href="#publications">
           Publications
         </a>
 
-        <a href="#research-experience">
-          Research Experience
+        <a href="#honors">
+          Honors and Awards
         </a>
 
-        <a href="#selected-projects">
-          Selected Projects
+        <a href="#education">
+          Education
         </a>
 
-        <a href="#technical-skills">
-          Technical Skills
+        <a href="#experience">
+          Experience
         </a>
 
-        <a href="#awards-and-honors">
-          Awards and Honors
-        </a>
+      </div>
 
-        <a href="#teaching-experience">
-          Teaching Experience
-        </a>
+    </nav>
 
-        <a href="#contact">
-          Contact
-        </a>
+  </header>
 
-      </nav>
+  <!-- =========================
+       整体内容
+  ========================== -->
+  <div class="page-container">
+
+    <!-- =========================
+         左侧个人信息
+    ========================== -->
+    <aside class="profile-sidebar">
+
+      {% if site.avatar %}
+      <img class="profile-avatar" src="{{ site.avatar | relative_url }}" alt="{{ site.title }}">
+      {% endif %}
+
+      <h1 class="profile-name">
+        {{ site.title }}
+      </h1>
+
+      {% if site.university %}
+      <p class="profile-university">
+        {{ site.university }}
+      </p>
+      {% endif %}
+
+      {% if site.position %}
+      <p class="profile-position">
+        {{ site.position }}
+      </p>
+      {% endif %}
+
+      {% if site.location %}
+      <p class="profile-link">
+        <i class="fa-solid fa-location-dot"></i>
+        <span>{{ site.location }}</span>
+      </p>
+      {% endif %}
+
+      {% if site.email %}
+      <p class="profile-link">
+        <i class="fa-solid fa-envelope"></i>
+
+        <a href="mailto:{{ site.email }}">
+          Email
+        </a>
+      </p>
+      {% endif %}
+
+      {% if site.linkedin %}
+      <p class="profile-link">
+        <i class="fa-brands fa-linkedin"></i>
+
+        <a href="{{ site.linkedin }}" target="_blank" rel="noopener noreferrer">
+          LinkedIn
+        </a>
+      </p>
+      {% endif %}
+
+      {% if site.github_username %}
+      <p class="profile-link">
+        <i class="fa-brands fa-github"></i>
+
+        <a href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener noreferrer">
+          GitHub
+        </a>
+      </p>
+      {% endif %}
+
+      {% if site.google_scholar %}
+      <p class="profile-link">
+        <i class="fa-solid fa-graduation-cap"></i>
+
+        <a href="{{ site.google_scholar }}" target="_blank" rel="noopener noreferrer">
+          Google Scholar
+        </a>
+      </p>
+      {% endif %}
+
+      {% if site.cv %}
+      <p class="profile-link">
+        <i class="fa-solid fa-file-pdf"></i>
+
+        <a href="{{ site.cv | relative_url }}" target="_blank" rel="noopener noreferrer">
+          Curriculum Vitae
+        </a>
+      </p>
+      {% endif %}
 
     </aside>
 
     <!-- =========================
-         右侧简历正文
+         右侧正文
     ========================== -->
-    <main class="main-content">
+    <main class="main-content" id="homepage">
 
       {{ content }}
 
