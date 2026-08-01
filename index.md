@@ -3,7 +3,7 @@ layout: default
 title: Homepage
 ---
 
-## About
+## About {#about}
 
 Hello 👋! I am **[Your Name]**, a graduate student at [University Name], advised by Prof. [Advisor Name].
 
@@ -13,13 +13,13 @@ My research focuses on **[Research Area 1]**, **[Research Area 2]**, and **[Rese
 
 You can find my [CV here]({{ '/assets/files/CV.pdf' | relative_url }}).
 
-## 🔥 News
+## 🔥 News {#news}
 
 - [2026.07] 🎉 [Paper Name] was accepted by *[Conference Name]*.
 - [2026.05] 🚀 The source code for [Project Name] was released.
 - [2026.02] 🏆 Received [Award Name].
 
-## 📝 Selected Publications
+## 📝 Selected Publications {#publications}
 
 For the full publication list, please see my [CV]({{ '/assets/files/CV.pdf' | relative_url }}).
 
@@ -35,13 +35,13 @@ For the full publication list, please see my [CV]({{ '/assets/files/CV.pdf' | re
 
 Briefly describe the problem, method, and contribution of this publication.
 
-## 🏆 Honors and Awards
+## 🏆 Honors and Awards {#honors}
 
 - **[Award Name]**, [Organization], [Year]
 - **[Scholarship Name]**, [University], [Year]
 - **[Competition Award]**, [Year]
 
-## 🎓 Education
+## 🎓 Education {#education}
 
 ### [University Name]
 
@@ -59,7 +59,7 @@ Briefly describe the problem, method, and contribution of this publication.
 
 - GPA or Average Score: [Score]
 
-## 💼 Research Experience
+## 💼 Research Experience {#experience}
 
 ### [Research Project Name]
 
