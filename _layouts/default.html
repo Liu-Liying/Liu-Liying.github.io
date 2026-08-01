@@ -1,23 +1,22 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: 'en-US' }}">
+
 <head>
   <meta charset="UTF-8">
 
-  <meta name="viewport"
-        content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>
     {% if page.title %}
-      {{ page.title }} | {{ site.title }}
+    {{ page.title }} | {{ site.title }}
     {% else %}
-      {{ site.title }}
+    {{ site.title }}
     {% endif %}
   </title>
 
   <meta name="description" content="{{ site.description }}">
 
-  <link rel="stylesheet"
-        href="{{ '/assets/css/style.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 
   {% seo %}
 </head>
@@ -26,27 +25,31 @@
 
   <div class="resume-container">
 
-    <!-- 左侧个人信息 -->
+    <!-- =========================
+         左侧个人信息栏
+    ========================== -->
     <aside class="sidebar">
 
+      <!-- 个人信息 -->
       <div class="profile">
 
         {% if site.avatar %}
-        <img
-          class="avatar"
-          src="{{ site.avatar | relative_url }}"
-          alt="{{ site.title }}">
+        <img class="avatar" src="{{ site.avatar | relative_url }}" alt="{{ site.title }}">
         {% endif %}
 
         <h1>{{ site.title }}</h1>
 
+        {% if site.position %}
         <p class="position">
           {{ site.position }}
         </p>
+        {% endif %}
 
+        {% if site.description %}
         <p class="description">
           {{ site.description }}
         </p>
+        {% endif %}
 
       </div>
 
@@ -60,34 +63,81 @@
         {% endif %}
 
         {% if site.github_username %}
-        <a href="https://github.com/{{ site.github_username }}">
+        <a href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener noreferrer">
           GitHub
         </a>
         {% endif %}
 
         {% if site.google_scholar %}
-        <a href="{{ site.google_scholar }}">
+        <a href="{{ site.google_scholar }}" target="_blank" rel="noopener noreferrer">
           Google Scholar
         </a>
         {% endif %}
 
         {% if site.linkedin %}
-        <a href="{{ site.linkedin }}">
+        <a href="{{ site.linkedin }}" target="_blank" rel="noopener noreferrer">
           LinkedIn
         </a>
         {% endif %}
 
         {% if site.cv %}
-        <a href="{{ site.cv | relative_url }}">
+        <a href="{{ site.cv | relative_url }}" target="_blank" rel="noopener noreferrer">
           Download CV
         </a>
         {% endif %}
 
       </div>
 
+      <!-- 左侧导航 -->
+      <nav class="sidebar-nav" aria-label="Resume navigation">
+
+        <a href="#about-me">
+          About Me
+        </a>
+
+        <a href="#research-interests">
+          Research Interests
+        </a>
+
+        <a href="#education">
+          Education
+        </a>
+
+        <a href="#publications">
+          Publications
+        </a>
+
+        <a href="#research-experience">
+          Research Experience
+        </a>
+
+        <a href="#selected-projects">
+          Selected Projects
+        </a>
+
+        <a href="#technical-skills">
+          Technical Skills
+        </a>
+
+        <a href="#awards-and-honors">
+          Awards and Honors
+        </a>
+
+        <a href="#teaching-experience">
+          Teaching Experience
+        </a>
+
+        <a href="#contact">
+          Contact
+        </a>
+
+      </nav>
+
     </aside>
 
-    <!-- 右侧简历正文 -->
+    <!-- =========================
+         右侧简历正文
+    ========================== -->
     <main class="main-content">
 
       {{ content }}
@@ -97,4 +147,5 @@
   </div>
 
 </body>
+
 </html>
