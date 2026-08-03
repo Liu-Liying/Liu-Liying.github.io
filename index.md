@@ -18,10 +18,10 @@ My research interests include graph neural networks, reinforcement learning, and
   </div>
 
   <div class="publication-info">
-    <h3><a href="#">Paper Title</a></h3>
-    <p><strong>[Your Name]</strong>, [Coauthor Name], [Coauthor Name]</p>
-    <p><em>Conference or Journal Name</em>, [Year]</p>
-    <p class="publication-links">[[Paper]](#) · [[Code]](#) · [[Project Page]](#)</p>
+    <h3><a href="https://doi.org/10.1007/s11276-026-04162-y">A high efficiency information transmission protocol for large-scale WSNs based on reinforcement learning</a></h3>
+    <p>Xing Su, <strong>Liying Liu</strong>, Zhi Cai, Yi Liang, Limin Guo, Yongping Du, Yahui Zheng</p>
+    <p><em>Wireless Networks</em>, 2026</p>
+    <p class="publication-links"><a href="#">Paper</a> · <a href="#">Code</a> · <a href="#">Project Page</a></p>
   </div>
 </div>
 <!-- markdownlint-enable MD033 -->
