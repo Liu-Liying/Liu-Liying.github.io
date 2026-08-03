@@ -9,6 +9,11 @@ Hello! I am Liying Liu, a graduate student in Computer Science at Beijing Univer
 
 My research interests include graph neural networks, reinforcement learning, and their applications to intelligent network optimization.
 
+## Education {#education}
+
+- 2024.09 - 2027.06, M.S. in Computer Science, Beijing University of Technology
+- 2020.09 - 2024.06, B.S. in Computer Science, Hebei Agricultural University
+
 ## Publications {#publications}
 
 <!-- markdownlint-disable MD033 -->
@@ -21,15 +26,10 @@ My research interests include graph neural networks, reinforcement learning, and
     <h3><a href="https://doi.org/10.1007/s11276-026-04162-y">A high efficiency information transmission protocol for large-scale WSNs based on reinforcement learning</a></h3>
     <p>Xing Su, <strong>Liying Liu</strong>, Zhi Cai, Yi Liang, Limin Guo, Yongping Du, Yahui Zheng</p>
     <p><em>Wireless Networks</em>, 2026</p>
-    <p class="publication-links"><a href="#">Paper</a> · <a href="#">Code</a> · <a href="#">Project Page</a></p>
+    <!-- <p class="publication-links"><a href="#">Paper</a> · <a href="#">Code</a> · <a href="#">Project Page</a></p> -->
   </div>
 </div>
 <!-- markdownlint-enable MD033 -->
-
-## Education {#education}
-
-- 2024.09 - 2027.06, M.S. in Computer Science, Beijing University of Technology
-- 2020.09 - 2024.06, B.S. in Computer Science, Hebei Agricultural University
 
 ## Honors and Awards {#honors}
 
