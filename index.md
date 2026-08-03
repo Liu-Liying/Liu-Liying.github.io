@@ -35,6 +35,6 @@ My research interests include graph neural networks, reinforcement learning, and
 
 - First-Class Scholarship, Beijing University of Technology, 2024
 
-## Interships {#interships}
+## Internships {#internships}
 
 - 2025.08 - 2025.12, Software Engineer, Baidu, Beijing, China.

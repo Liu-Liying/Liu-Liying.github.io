@@ -291,6 +291,8 @@ a {
 
 .main-content .publication-info h3 {
   margin: 0 0 10px;
+  color: #4b5563;
+  font-weight: 600;
 }
 
 .main-content .publication-info p {
