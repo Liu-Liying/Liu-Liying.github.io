@@ -11,24 +11,29 @@ My research interests include graph neural networks, reinforcement learning, and
 
 ## Publications {#publications}
 
-![Publication preview]({{ '/assets/images/paper-example.jpg' | relative_url }})
+<!-- markdownlint-disable MD033 -->
+<div class="publication-item">
+  <div class="publication-image">
+    <img src="{{ '/assets/images/paper-example.jpg' | relative_url }}" alt="Publication preview">
+  </div>
 
-### [Paper Title]
-
-**[Your Name]**, [Coauthor Name], [Coauthor Name]
-
-*[Conference or Journal Name]*, [Year]
-
-[[Paper]](#) · [[Code]](#) · [[Project Page]](#)
-
-## Honors and Awards {#honors}
-
-- First-Class Scholarship, Beijing University of Technology, 2024
+  <div class="publication-info">
+    <h3><a href="#">Paper Title</a></h3>
+    <p><strong>[Your Name]</strong>, [Coauthor Name], [Coauthor Name]</p>
+    <p><em>Conference or Journal Name</em>, [Year]</p>
+    <p class="publication-links">[[Paper]](#) · [[Code]](#) · [[Project Page]](#)</p>
+  </div>
+</div>
+<!-- markdownlint-enable MD033 -->
 
 ## Education {#education}
 
 - 2024.09 - 2027.06, M.S. in Computer Science, Beijing University of Technology
 - 2020.09 - 2024.06, B.S. in Computer Science, Hebei Agricultural University
+
+## Honors and Awards {#honors}
+
+- First-Class Scholarship, Beijing University of Technology, 2024
 
 ## Interships {#interships}
 
