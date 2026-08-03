@@ -9,11 +9,6 @@ Hello! I am Liying Liu, a graduate student in Computer Science at Beijing Univer
 
 My research interests include graph neural networks, reinforcement learning, and their applications to intelligent network optimization.
 
-## Education {#education}
-
-- 2024.09 - 2027.06, M.S. in Computer Science, Beijing University of Technology
-- 2020.09 - 2024.06, B.S. in Computer Science, Hebei Agricultural University
-
 ## Publications {#publications}
 
 <!-- markdownlint-disable MD033 -->
@@ -30,6 +25,11 @@ My research interests include graph neural networks, reinforcement learning, and
   </div>
 </div>
 <!-- markdownlint-enable MD033 -->
+
+## Education {#education}
+
+- 2024.09 - 2027.06, M.S. in Computer Science, Beijing University of Technology
+- 2020.09 - 2024.06, B.S. in Computer Science, Hebei Agricultural University
 
 ## Honors and Awards {#honors}
 
