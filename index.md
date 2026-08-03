@@ -5,11 +5,9 @@ title: Liying Liu
 
 ## About Me {#about}
 
-Hello! I am **[Your Name]**, a graduate student at [University Name], advised by Prof. [Advisor Name].
+Hello! I am Liying Liu, a graduate student in Computer Science at Beijing University of Technology, advised by Prof. [Xing Su](https://cs.bjut.edu.cn/info/1503/3422.htm).
 
-I received my [Degree] in [Major] from [University Name] in [Year].
-
-My research focuses on **[Research Area 1]**, **[Research Area 2]**, and **[Research Area 3]**.
+My research interests include graph neural networks, reinforcement learning, and their applications to intelligent network optimization.
 
 ## Publications {#publications}
 
@@ -25,29 +23,13 @@ My research focuses on **[Research Area 1]**, **[Research Area 2]**, and **[Rese
 
 ## Honors and Awards {#honors}
 
-- **[Award Name]**, [Organization], [Year]
-- **[Scholarship Name]**, [University], [Year]
-- **[Competition Award]**, [Year]
+- First-Class Scholarship, Beijing University of Technology, 2024
 
 ## Education {#education}
 
-### [University Name]
+- 2024.09 - 2027.06, M.S. in Computer Science, Beijing University of Technology
+- 2020.09 - 2024.06, B.S. in Computer Science, Hebei Agricultural University
 
-**[Degree] in [Major]**  
-[Start Year] – [End Year or Present]
+## Interships {#interships}
 
-- Advisor: [Advisor Name]
-- GPA or Average Score: [Score]
-- Thesis: *[Thesis Title]*
-
-## Research Experience {#experience}
-
-### [Research Project Name]
-
-**[Role]**, [Institution]  
-[Start Date] – [End Date]
-
-- Investigated [research problem].
-- Developed [algorithm, framework, or system].
-- Conducted experiments using [tools or datasets].
-- Evaluated the method using [metrics].
+- 2025.08 - 2025.12, Software Engineer, Baidu, Beijing, China.
