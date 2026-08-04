@@ -37,4 +37,4 @@ My research interests include graph neural networks, reinforcement learning, and
 
 ## Internships {#internships}
 
-- 2025.08 - 2025.12, Software Engineer, ACG, Baidu, Beijing, China
+- 2025.08 - 2025.12, Software Engineer, ACG Department, Baidu, Beijing, China
