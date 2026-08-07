@@ -34,6 +34,7 @@ My research interests include graph neural networks, reinforcement learning, and
 ## Honors and Awards {#honors}
 
 - First-Class Scholarship, Beijing University of Technology, 2024
+- First-Class Scholarship, Hebei Agricultural University, 2023, 2024
 
 ## Internships {#internships}
 
